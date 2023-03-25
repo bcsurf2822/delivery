@@ -6,7 +6,7 @@ const HomePage = () => {
     
     {
       title: 'Get Products and Tools',
-      description: 'If your in a situation where you need something on demand have one of our drivers go to a store and fetch the item, no size too big or too small, our fleet of drivers will accomadate your every need',
+      description: 'Get products delivered to your worksite, boat, or office.  No product is too big and no distance is too far, our insured drivers will accomadate your needs when your not able to'
     },
     {
       title: ' Earn by starting a Store',
@@ -24,9 +24,9 @@ const HomePage = () => {
 
   return (
     <div className="container mx-auto mt-8">
-      <h1 className="text-4xl font-bold mb-8">Welcome to Our Delivery Service</h1>
+      <h1 className="text-4xl font-bold mb-8">Tools 2 U</h1>
       <p className="text-lg mb-8">
-        We provide fast and reliable delivery services to our customers and drivers. Browse the features below to learn more.
+        We provide on-Demand delivery service for approved products by app, phone, email, or text.  We offer affordable and insured product delivery.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {information.map((card, index) => (
