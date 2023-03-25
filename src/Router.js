@@ -3,6 +3,7 @@ import App from "./App";
 import DriverLogin from "./components/login/Driver";
 import CustomerLogin from "./components/login/Customer";
 import Navbar from "./components/Nav";
+import HomePage from "./components/home/HomePage";
 
 function Router() {
   return (

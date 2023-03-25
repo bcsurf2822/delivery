@@ -6,5 +6,12 @@ module.exports = {
   theme: {
     extend: {},
   },
+  variants: {
+    extend: {
+      scale: ["hover", "focus"],
+      transform: ["hover", "focus"],
+      transitionProperty: ["hover", "focus"],
+    },
+  },
   plugins: [],
 }
