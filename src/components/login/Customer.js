@@ -1,10 +1,11 @@
-
+import { Link } from "react-router-dom";
 
 function CustomerLogin() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center">
       <div className="bg-white p-8 rounded-lg shadow-md w-96">
         <h1 className="text-2xl font-bold mb-4">Customer Login</h1>
+        <p>Do you want to drive with Us? <Link to="/customer/register">Register</Link></p>
         <form>
           <div className="mb-4">
             <label className="block text-gray-700">Username</label>
